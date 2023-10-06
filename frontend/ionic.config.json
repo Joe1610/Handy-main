@@ -1,0 +1,7 @@
+{
+  "name": "handy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

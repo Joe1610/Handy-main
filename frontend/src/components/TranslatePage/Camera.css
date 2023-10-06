@@ -1,0 +1,35 @@
+.upload-button {
+  margin-left: 3px;
+  box-shadow: 0px 1px 0px 0px #683aff;
+  background-color: #683aff;
+  border-radius: 6px;
+  border: 1px solid #683aff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #283966;
+}
+.upload-button:hover {
+  background-color: #663fe8;
+}
+.upload-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.switch {
+  background-color: #683aff;
+  border-radius: 6px;
+  border: 1px solid #683aff;
+  color: "#663fe8";
+  font-size: 15px;
+  padding: 6px 12px;
+}
+.switch:checked {
+  background-color: #ffffff;
+}

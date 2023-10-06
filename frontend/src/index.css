@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+  position: absolute;
+  right: 0;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Set the width of the scrollbar */
+  scrollbar-color: #888 #f1f1f1; /* Set the color of the scrollbar thumb and track */
+}
+
+*::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+  position: absolute;
+  right: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+:host {
+  display: block;
+}
+
+pose-viewer {
+  display: flex;
+  width: 100%;
+  font-size: 2em;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+}
